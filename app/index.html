@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ledger — make.fun bounties</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="main.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="wordmark" href="#/">LEDGER <span>· make.fun</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#/">Board</a>
+      <a href="#/bounty/makefun-frontend-01">This bounty</a>
+    </nav>
+    <form id="profile-form" class="profile-form">
+      <label class="sr-only" for="profile-input">Profile handle</label>
+      <input id="profile-input" name="handle" placeholder="@handle" autocomplete="off">
+      <button type="submit">Go</button>
+    </form>
+  </header>
+  <main id="app" class="page" aria-live="polite"></main>
+  <footer>Data is live from make.fun’s public API.</footer>
+</body>
+</html>
